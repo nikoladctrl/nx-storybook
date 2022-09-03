@@ -1,0 +1,33 @@
+:host {
+    height: 2rem;
+    padding: 0 0.75rem;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+
+    &.byt-primary {
+        background-color: #e6f4ff;
+        border: 1px solid #bfe3ff;
+        color: #008dff;
+
+        &.cdk-keyboard-focused {
+            box-shadow: 0 0 0 3px rgba(0, 141, 255, 20%);
+        }
+    }
+
+    &.byt-negative {
+        background-color: #fce8ee;
+        border: 1px solid #f7c6d4;
+        color: #de1a51;
+
+        &.cdk-keyboard-focused {
+            box-shadow: 0 0 0 3px rgba(222, 26, 81, 20%);
+        }
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    
+}
